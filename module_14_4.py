@@ -8,7 +8,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardBut
 from crud_functions import get_all_products as gap
 
 
-api = "7124544474:AAFaOs1mWOvIe2lrQ_18-JiH41LuXULWBQY"
+api = ""
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
